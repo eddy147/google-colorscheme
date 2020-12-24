@@ -109,6 +109,15 @@
             }
         },
         {
+            "name": "Variables",
+            "scope": [
+                "punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#ffa700"
+            }
+        },
+        {
             "name": "Language Objects",
             "scope": [
                 "variable.other.constant"

@@ -1,0 +1,26 @@
+{
+  "name": "eddy147.google-theme-0.0.1",
+  "version": "0.0.1",
+  "description": "Light color theme with the google colors",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eddy147@gmail.com",
+  "license": "ISC",
+  "publisher": "eddy147",
+  "engines": {
+    "vscode": "^1.5"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GoogleTheme",
+        "uiTheme": "vs",
+        "path": "./themes/google-theme.json"
+      }
+    ]
+  }
+}

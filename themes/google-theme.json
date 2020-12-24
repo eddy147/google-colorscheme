@@ -1,0 +1,148 @@
+{
+    "name": "GoogleTheme",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#000000",
+        "editor.lineHighlighBackground": "#DDDDDD",
+        "editorIndentGuide.background": "#616161",
+        "editor.findMatchHighlightBackground": "#DD2C00"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#666666",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#d62d20"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation.definition.parameters",
+                "punctuation.section.parens.begin",
+                "variable.parameter",
+                "variable.other.property",
+                "support.variable.property.dom",
+                "variable.other.object.property",
+                "punctuation.separator",
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#0057e7"
+            }
+        },
+        {
+            "name": "Objects",
+            "scope": [
+                "variable.other.object",
+                "support.class.console",
+                "support.variable.dom",
+                "support.constant",
+                "entity.name.type.module",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#008744"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#008744"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#008744"
+            }
+        },
+        {
+            "name": "Method definitions",
+            "scope": [
+                "entity.name.function",
+                "entity.name.function-call",
+                "support.function.dom",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#0057e7",
+                "fontStyle": "normal"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable.language",
+                "variable.other.member",
+                "variable.other.readwrite",
+                "punctuation.definition.variable"
+            ],
+            "settings": {
+                "background": "#000000"
+            }
+        },
+        {
+            "name": "Language Objects",
+            "scope": [
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#008744"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "name": "Key JSON",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#0057e7"
+            }
+        },
+        {
+            "name": "Structure Chars, like braces etc.",
+            "scope": [
+                "meta.structure"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        }
+    ]
+}
